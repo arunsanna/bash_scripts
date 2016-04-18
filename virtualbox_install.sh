@@ -5,3 +5,5 @@ sudo apt-key add oracle_vbox.asc
 sudo apt-get update
 sudo apt-get install virtualbox-5.0
 echo " installtion of virtualbox is complete now you can use the virtualbox from your terminal to launch virtualbox version-5"
+
+#installtion using the scripts
