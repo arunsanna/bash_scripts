@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LISTFILE="./web.lst"
+LISTFILE="./web.txt"
 
 function test {
   response=$(curl --write-out %{http_code} --silent --output /dev/null $1)
@@ -12,6 +12,6 @@ function test {
   fi
 }
 
-while read s; do
-  test $s
+while read p; do
+  test $p
 done < $LISTFILE
