@@ -12,6 +12,6 @@ function test {
   fi
 }
 
-while read p; do
-  test $p
+while read s; do
+  test $s
 done < $LISTFILE
