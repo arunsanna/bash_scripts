@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Calabash template
+# Calabash / Cucumber
+rerun/
+reports/
+screenshots/
+screenshot*.png
+test-servers/
+
+# bundler
+.bundle
+vendor
+
+.gitignore
+.idea/inspectionProfiles/
